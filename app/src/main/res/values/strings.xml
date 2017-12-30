@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TravelCity</string>
+    <string-array name="status_1">
+        <item>Mumbai</item>
+        <item>Delhi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/cityname"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:text="City Name"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <GridView
+        android:id="@+id/transportgrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityname"
+        android:background="@drawable/gridview_border"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="25dp"
+        android:numColumns="3"
+        android:gravity="center"
+        android:verticalSpacing="30dp" />
+
+
+
+
+</RelativeLayout>
